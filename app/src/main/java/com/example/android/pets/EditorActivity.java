@@ -275,7 +275,7 @@ public class EditorActivity extends AppCompatActivity implements
             case R.id.action_save:
                 // Save pet to database
                 if(TextUtils.isEmpty(name)){
-                    Toast.makeText(getApplicationContext(), "You need to add name", LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "You need to add the name of the pet", LENGTH_LONG).show();
                 } else {
                     savePet();
                     // Exit activity
